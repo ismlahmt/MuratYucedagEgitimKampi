@@ -11,7 +11,7 @@ namespace ObjectOrientedProject.DataAccessLayer.Repositories
 {
     public class GenericRepository<T> : Igenericddal<T> where T : class
     {
-
+        // github aktarma deneme
         CampContext context=  new CampContext();
         private readonly DbSet<T> _object;
 

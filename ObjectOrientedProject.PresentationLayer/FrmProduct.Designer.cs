@@ -61,6 +61,7 @@
             this.btnGetById.TabIndex = 26;
             this.btnGetById.Text = "Idye Göre Listele";
             this.btnGetById.UseVisualStyleBackColor = true;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // btnDelete
             // 
@@ -80,6 +81,7 @@
             this.btnUpdate.TabIndex = 24;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
